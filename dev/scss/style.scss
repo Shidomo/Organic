@@ -1,4 +1,17 @@
+@import'./vars';
 @import './mixins';
 @import './normalize';
 @import './fonts';
 @import './base';
+@import './components/cards';
+@import './components/sub-title';
+@import './components/title';
+@import './components/rating';
+@import './components/price';
+
+.product {
+    padding: 20px 40px;
+    background: #f9f9f9;
+}
+
+

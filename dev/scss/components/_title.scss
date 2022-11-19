@@ -1,0 +1,12 @@
+.title {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0.36000001430511475px;
+    color: $accent;
+
+    &--center {
+        text-align: center;
+    }
+}

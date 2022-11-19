@@ -1,0 +1,14 @@
+.price {
+    &__item {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.36000001430511475px;
+        color: $accent;
+
+        &--transparent {
+            color: $transparent;
+            text-decoration: line-through;
+        }
+    } 
+}
