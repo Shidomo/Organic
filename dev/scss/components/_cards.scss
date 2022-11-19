@@ -16,12 +16,20 @@
             color: #fff;
             padding: 5px 20px;
             font-family: 'Open Sans', sans-serif;
+            &:hover {
+                background: $card-hover;
+            }
         }
 
         &__title {
             font-size: 22px;
-            color: $accent;
 
+        }
+        &__text {
+            color: $accent;
+            &:hover {
+                color: $card-hover;
+            }
         }
         &__footer {
             display: flex;
